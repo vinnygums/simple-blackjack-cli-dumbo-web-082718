@@ -60,10 +60,11 @@ end
 
 def runner
   # code runner here
-  until card_total >= 21
+  while card_total <= 21
   welcome
   initial_round
   hit?
-  
+  end
+end_game
 end
     
