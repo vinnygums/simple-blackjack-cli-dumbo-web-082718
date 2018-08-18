@@ -60,5 +60,14 @@ end
 
 def runner
   # code runner here
+  welcome
+  initial_round
+  prompt_user
+  input = get_user_input
+  if input == "h"
+    deal_card
+  elsif input == "s"
+    prompt_user
+  end
 end
     
