@@ -58,13 +58,8 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 
-def runner(card_total)
-  # code runner here
+def runner
   welcome
   initial_round
-  until card_total<= 21
-  hit?
-  end
-end_game
 end
     
