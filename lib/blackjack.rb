@@ -58,9 +58,9 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 
-def runner
+def runner(card_total)
   # code runner here
-  while card_total <= 21
+  until card_total<= 21
   welcome
   initial_round
   hit?
