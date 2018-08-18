@@ -60,13 +60,10 @@ end
 
 def runner
   # code runner here
+  until card_total >= 21
   welcome
   initial_round
-  prompt_user
-  get_user_input
-  until card_total > 21
-    prompt_user
-    get_user_input
-    
+  hit?
+  
 end
     
